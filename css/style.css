@@ -1,0 +1,87 @@
+@font-face{
+  font-family : 'Saitamaar';
+  src: local('Saitamaar'),
+  url('http://keage.sakura.ne.jp/fonts/Saitamaar.eot?') format('eot'),
+  url('http://keage.sakura.ne.jp/fonts/Saitamaar.woff.php') format('woff'),
+  url('http://keage.sakura.ne.jp/fonts/Saitamaar.ttf') format('truetype'),
+  url('http://keage.sakura.ne.jp/fonts/Saitamaar.ttf.php') format('truetype');
+  font-weight : normal;
+  font-style : normal;
+}
+
+div.aa_contents {
+	font-size: 16px;
+	line-height: 18px;
+	font-family: 'Mona','IPA MONAPGOTHIC','MS PGothic','ＭＳ Ｐゴシック','MS Pｺﾞｼｯｸ','MS Pゴシック','Saitamaar', sans-serif;
+	overflow: auto;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-shadow: none;
+}
+
+strong.aa_error {
+	color: #cc6666;
+}
+
+figure.aa_panel {
+	padding: 18px;
+}
+
+figure.aa_panel:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+
+div.words {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+	background-color: #fcfcfc;
+	border: 1px solid #999;
+
+	margin :18px;
+	padding: 16px;
+
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+}
+
+div.aa {
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+}
+
+div.aa_contents div.padding100 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding200 {
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding300 {
+	width: 300px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding400 {
+	width: 400px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding500 {
+	width: 500px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding600 {
+	width: 600px;
+	height: 100px;
+	float: left;
+}
